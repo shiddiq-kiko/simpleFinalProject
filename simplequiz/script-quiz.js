@@ -192,31 +192,3 @@ showSlide(0);
 submitButton.addEventListener("click", showResults);
 previousButton.addEventListener("click", showPreviousSlide);
 nextButton.addEventListener("click", showNextSlide);
-   
-   
-   
-   
-   
-   
-   
-   /* 
-    we'll need a place to store the HTML output
-    for each question...
-    we'll want to store the list of answer choices
-    and for each available answer...
-    ...add an HTML radio button
-    add this question and its answers to the output
-    finally combine our output list into one string of HTML and put it on the page
-    gather answer containers from our quiz
-    keep track of user's answers
-    for each question...
-    find selected answer
-    if answer is correct
-    add to the number of correct answers
-    color the answers green
-    if answer is wrong or blank
-    color the answers red
-    show number of correct answers out of total
-    display quiz right away
-    on submit, show results
-    */
