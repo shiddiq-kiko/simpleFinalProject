@@ -1,3 +1,106 @@
+var simpleQuestion = [
+    {
+        question : 'What is Capital City of Somalia?',
+        answers :{
+            A : 'Ulan Batar',
+            B : 'Mogadishu',
+            C : 'Lima',
+            D : 'Islamabad'
+        },
+        correctAnswer : 'B'
+    },
+    {
+        question : 'What is Capital City of Tanzania?',
+        answers :{
+            A : 'Ulan Batar',
+            B : 'Kingston',
+            C : 'Dar es sallam',
+            D : 'Nairobi'
+        },
+        correctAnswer : 'C'
+    },
+    {
+        question : 'What is Capital City of kenya?',
+        answers :{            
+            A : 'Kingston',
+            B : 'Dar es sallam',
+            C : 'Nairobi',
+            D : 'Ulan Batar'
+        },
+        correctAnswer : 'C'
+    },
+    {
+        question : 'What is Capital City of Mongolia?',
+        answers : {
+            A : 'Ulan Batar',
+            B : 'Nairobi',
+            C : 'Kingston',
+            D : 'Dar es sallam'
+        },
+        correctAnswer : 'A'
+    },
+    {
+        question : 'What is Capital City of Jamaica?',
+        answers :{
+            A : 'Ulan Batar',
+            B : 'Kingston',
+            C : 'Nairobi',
+            D : 'Dar es sallam'
+        },
+        correctAnswer : 'B'
+    },
+    {
+        question : 'Who is main Heroine of Fate Stay Night?',
+        answers :{
+            A : 'Artoria Pendragon',
+            B : 'Rin Tohsaka',
+            C : 'Sakura Matou',
+            D : 'Marlyn Monroe',
+        },
+        correctAnswer : 'A'
+    },
+    {
+        question : 'Who is the first President of Indonesia?',
+        answers :{
+            A : 'Ahmad Yani',
+            B : 'Ir Soekarno',
+            C : 'Muhammad Hatta',
+            D : 'Sutan Sjahrir'
+        },
+        correctAnswer : 'B'
+    },
+    {
+        question : 'Who is the first Vice President of Indonesia?',
+        answers :{
+            A : 'Ahmad Yani',
+            B : 'Ir Soekarno',
+            C : 'Muhammad Hatta',
+            D : 'Sutan Sjahrir'
+        },
+        correctAnswer : 'C'
+    },
+    {
+        question : 'Who is the second President of Indonesia?',
+        answers :{
+            A : 'BJ Habibie',
+            B : 'Gen. Sudirman',
+            C : 'Tri Sutrisno',
+            D : 'Soeharto'
+        },
+        correctAnswer : 'D'
+    },
+    {
+        question : 'Who is the third Vice President of Indonesia?',
+        answers :{
+            A : 'Adam Malik',
+            B : 'Tri Sutrisno',
+            C : 'Sudharmono',
+            D : 'Boediono'
+        },
+        correctAnswer : 'A'
+    }
+];
+
 function buildQuiz() {
     var output = [];
     simpleQuestion.forEach((currentQuestion, questionNumber) => {
@@ -79,108 +182,6 @@ function showPreviousSlide() {
 var quizContainer = document.getElementById("quiz");
 var resultsContainer = document.getElementById("results");
 var submitButton = document.getElementById("submit");
-var simpleQuestion = [
-    {
-        question : 'What is Capital City of Somalia?',
-        answers :{
-            A : 'Ulan Batar',
-            B : 'Mogadishu',
-            C : 'Lima',
-            D : 'Islamabad'
-        },
-        correctAnswer : 'B'
-    },
-    {
-        question : 'What is Capital City of Tanzania?',
-        answers :{
-            A : 'Ulan Batar',
-            B : 'Kingston',
-            C : 'Dar es sallam',
-            D : 'Nairobi'
-        },
-        correctAnswer : 'C'
-    },
-    {
-        question : 'What is Capital City of kenya?',
-        answers :{            
-            A : 'Kingston',
-            B : 'Dar es sallam',
-            C : 'Nairobi',
-            D : 'Ulan Batar'
-        },
-        correctAnswer : 'C'
-    },
-    {
-        question : 'What is Capital City of Mongolia?',
-        answers : {
-            A : 'Ulan Batar',
-            B : 'Nairobi',
-            C : 'Kingston',
-            D : 'Dar es sallam'
-        },
-        correctAnswer : 'A'
-    },
-    {
-        question : 'What is Capital City of Jamaica?',
-        answers :{
-            A : 'Ulan Batar',
-            B : 'Kingston',
-            C : 'Nairobi',
-            D : 'Dar es sallam'
-        },
-        correctAnswer : 'B'
-    },
-    {
-        question : 'Who is main Heroine of Fate Stay Night?',
-        answers :{
-            A : 'Artoria Pendragon',
-            B : 'Rin Tohsaka',
-            C : 'Sakura Matou',
-            D : 'Marlyn Monroe',
-        },
-        correctAnswer : 'A'
-    },
-    {
-        question : 'Whose death caused WWI?',
-        answers :{
-            A : 'Kaiser Friedrich Wilhem II',
-            B : 'Arcduke Franz Ferdinand',
-            C : 'Vladimir Lenin',
-            D : 'King George V'
-        },
-        correctAnswer : 'B'
-    },
-    {
-        question : 'Which country he is from?',
-        answers :{
-            A : 'Russian Empire',
-            B : 'German Empire',
-            C : 'Austro-Hungari Empire',
-            D : 'Kingdom of Italy'
-        },
-        correctAnswer : 'C'
-    },
-    {
-        question : 'What caused him to die?',
-        answers :{
-            A : 'Traffic Accident',
-            B : 'Natural Cause',
-            C : 'Frostbite',
-            D : 'Assasination'
-        },
-        correctAnswer : 'D'
-    },
-    {
-        question : 'Who is the preparator?',
-        answers :{
-            A : 'Gavrillo Princip',
-            B : 'Andrei Chicatilo',
-            C : 'Max Hunter',
-            D : 'Joachim Kroll'
-        },
-        correctAnswer : 'A'
-    }
-];
 
 buildQuiz();
 var previousButton = document.getElementById("previous");
