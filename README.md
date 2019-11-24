@@ -24,7 +24,7 @@ Pada Final Project ini terdapat 2 project
     
     2. showResult.
     
-    function ini bertujuan untuk menyimpan jawaban yang telah dipilih oleh user, lalu menyocokan
+      function ini bertujuan untuk menyimpan jawaban yang telah dipilih oleh user, lalu menyocokan
       jawaban dari user dengan jawaban yang benar, jika jawaban dari user benar warna soal akan berubah
       menjadi hijau ketika di submit dan variabel numCorrect akan bertambah. jika jawaban user salah,
       warna soal akan berubah menjadi merah ketika di submit, dan variabel numCorrect tidak akan bertambah.
